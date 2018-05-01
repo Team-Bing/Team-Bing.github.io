@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catelyn Scholl</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">	
+	<style>*{font-family: 'Open Sans', sans-serif;} </style>
+	<style>*{font: 'Open Sans', sans-serif; color: white;} </style>
+
+	<link type="text/css" rel="stylesheet" href="../Styles/styles.css">
+
+</head>
+<body>
+
+	<div class="back">
+		<div class="home">
+			
+			<h1>Catelyn Scholl</h1>
+			<h2><em>Software engineering intern in Milwaukee, WI</em></h2>
+
+			<a href="about.html">about</a> /
+			<a href="projects.html">projects</a> /
+			<a href="resume.html">resume</a> /
+			<a href="other.html">other</a> /
+			<a href="contact.html">contact</a>
+		</div>
+	
+	</div>
+
+
+</body>
+</html>

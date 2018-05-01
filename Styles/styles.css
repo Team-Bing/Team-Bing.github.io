@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.back {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(160deg, #1D325A, #385B78, #3E89A2, #4ecdc4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home{
+	position: absolute;
+  margin-left: 5%;
+	margin-top: 20%;  
+}
+
+h1{
+  font-size: 40pt;
+  font-weight: 300;
+  color: white;
+}
+
+.links{
+  font-size: 18pt;
+  font-weight: 300;
+  color: white;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #212C2D;
+    text-decoration: underline;
+}
+
+
