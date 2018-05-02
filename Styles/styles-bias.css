@@ -18,7 +18,7 @@ html, body {
 
 .home{
   position: absolute;
-    margin-left: 5%;
+  margin-left: 5%;
   margin-top: 5%;  
 }
 
@@ -26,6 +26,31 @@ h1{
   font-size: 40pt;
   font-weight: 300;
   color: white;
+}
+
+h2{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 15%;  
+  font-weight: 300;
+  color: white;
+}
+
+h3{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 20%;  
+  font-weight: 300;
+  color: white;
+}
+
+p{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 18%;  
+  font-weight: 300;
+  color: white;
+  width: 200px;
 }
 
 .links{
