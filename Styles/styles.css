@@ -53,20 +53,44 @@ h1{
   font-weight: 300;
 }
 
-a:nth-of-type(1){
-  font-color: #4285F4;
+a[href="tech.html"]{
+  color: #4285F4;
 }
-a:nth-of-type(2){
-  font-color: #34A853;
+
+a[href="bias.html"]{
+  color: #34A853;
 }
-a:nth-of-type(3){
-  font-color: #FBBC05;
+
+a[href="privacy.html"]{
+  color: #FBBC05;
 }
-a:nth-of-type(4){
-  font-color: #34A853;
+
+a[href="censorship.html"]{
+  color: #EA4335;
 }
-a:nth-of-type(5){
-  font-color: gray;
+
+a[href="ethics.html"]:visited{
+  color: gray;
+}
+
+a[href="tech.html"]:visited{
+  color: #4285F4;
+}
+
+a[href="bias.html"]:visited{
+  color: #34A853;
+}
+
+a[href="privacy.html"]:visited{
+  color: #FBBC05;
+}
+
+a[href="censorship.html"]:visited{
+  color: #EA4335;
+}
+
+a[href="ethics.html"]:visited{
+  color: gray;
 }
 
 a:link {
@@ -75,7 +99,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: black;
+    color: inherit;
 }
 
 /* mouse over link */
