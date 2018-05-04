@@ -39,18 +39,20 @@ h3{
 }
 
 p{
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 20px; 
 
   font-weight: 300;
   color: white;
-  width: 300px;
-
-  flex-shrink: 0;
-  flex-basis: auto;
+  width: inherit;
 }
 
+#intro{
+
+  font-weight: 300;
+  color: white;
+  margin-left: 5%;
+  margin-top: 20px; 
+  width: 90%;
+}
 
 .links{
   font-size: 18pt;
@@ -83,6 +85,17 @@ a:hover {
   
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.columns{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px; 
+
+  width: 300px;
+
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 
 img { 
