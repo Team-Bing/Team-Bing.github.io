@@ -44,28 +44,28 @@ p{
 }
 
 #par1{
-  border-radius: 25px;
+  border-radius: 8px;
   padding: 25px;
   background: #4285F4;
   color: white;
 }
 
 #par2{
-  border-radius: 25px;
+  border-radius: 8px;
   padding: 25px;
   background: #EA4335;
   color: white;
 }
 
 #par3{
-  border-radius: 25px;
+  border-radius: 8px;
   padding: 25px;
   background: #FBBC05;
   color: white;
 }
 
 #intro{
-  border-radius: 25px;
+  border-radius: 8px;
   padding: 2.5%;
   background: white;
   font-weight: 300;
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .container {
-  border-radius: 25px;
+  border-radius: 8px;
   padding: 5px;
   background: white;
 
