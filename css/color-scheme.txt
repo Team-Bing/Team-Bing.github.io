@@ -1,0 +1,25 @@
+Color Scheme
+
+Sky Blue
+#A2CBEB
+
+Midnight Blue
+#1D325A
+
+Dark Slate Blue
+#385B78
+
+Light Steel Blue
+#C1D0DC
+
+Dark Slate Gray
+#212C2D
+
+Steel Blue
+#3C75A5
+
+LIGHT STEEL BLUE
+90AECA
+
+Teal
+#3E89A2
