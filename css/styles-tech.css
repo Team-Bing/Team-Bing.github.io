@@ -58,10 +58,12 @@ a:visited {
 }
 
 .panel-body {
-  padding: 10px 5px 5px 10px;
+  padding: 15px 5px 10px 10px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   background-color: white;
+  font-size: 18px;
+  text-align: center;
 }
 
 html,
