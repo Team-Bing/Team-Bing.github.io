@@ -49,10 +49,25 @@ a:visited {
   border-radius: 8px;
 }
 
+.panel-inner {
+  text-align: left;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #34A853;
+  border-style: solid;
+}
+
+.panel-inner .panel-heading a, .panel-inner .panel-heading a:hover, .panel-inner .panel-heading a:visited {
+  color: black !important;
+}
+
+.panel-inner .panel-collapse {
+  border:none;
+}
+
 .panel-collapse {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  border-width: 2px;
   border-top:none;
   border-style:solid;
 }
