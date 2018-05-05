@@ -33,6 +33,12 @@ a:visited {
 #relevancePanel { background-color: #34A853;  }
 #collapse3 { border-color: #34A853; }
 
+.tech-animation {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
 .panel {
   border-radius: 8px;
   margin-bottom: 5px;
