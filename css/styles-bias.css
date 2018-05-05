@@ -35,23 +35,46 @@ h2{
 
 h3{
   font-weight: 300;
-  color: white;
+  color: #34A853;
 }
 
 p{
-
   font-weight: 300;
-  color: white;
   width: inherit;
 }
 
-#intro{
-
-  font-weight: 300;
+#par1{
+  border-radius: 25px;
+  padding: 25px;
+  background: #4285F4;
   color: white;
+}
+
+#par2{
+  border-radius: 25px;
+  padding: 25px;
+  background: #EA4335;
+  color: white;
+}
+
+#par3{
+  border-radius: 25px;
+  padding: 25px;
+  background: #FBBC05;
+  color: white;
+}
+
+#intro{
+  border-radius: 25px;
+  padding: 2.5%;
+  background: white;
+  font-weight: 300;
+  color: #34A853;
   margin-left: 5%;
   margin-top: 20px; 
-  width: 90%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  width: 85%;
 }
 
 .links{
@@ -77,6 +100,10 @@ a:hover {
 }
 
 .container {
+  border-radius: 25px;
+  padding: 5px;
+  background: white;
+
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -85,14 +112,20 @@ a:hover {
   
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding-right: 4%;
 }
 
 .columns{
+
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 20px; 
+  margin-bottom: 5%;
 
-  width: 300px;
+  width: 280px;
 
   flex-shrink: 0;
   flex-basis: auto;
