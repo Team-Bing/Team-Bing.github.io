@@ -12,7 +12,7 @@
 	  crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
 	  crossorigin="anonymous">
-	<link type="text/css" rel="stylesheet" href="Styles/styles-tech.css">
+	<link type="text/css" rel="stylesheet" href="css/styles-tech.css">
 </head>
 
 <body>
@@ -30,44 +30,140 @@
 
 			<div class="container">
 				<div class="card card-body">
-				<h3>How does a search engine work?</h3>
-				<div class="panel-group">
-					<div class="panel panel-default" id="crawlerPanel">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" href="#collapse1">1: Crawl through the Web</a>
-							</h4>
+					<h3>How does a search engine work?</h3>
+					<div class="panel-group">
+						<div class="panel panel-default" id="crawlerPanel">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" href="#collapse1">1: Crawl through the Web</a>
+								</h4>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse in">
+								<div class="panel-body">
+									A prerequisite for
+									<em>any</em> modern search engine is a current map of the internet.
+									<br> Search engines employ “spiders” that crawl through the web, following every link they find,
+									<br>in order to find and update addresses of pages that are indexed in the search engine's catalog.
+									<div class="tech-animation">
+										<img src="#" alt="place webcrawler image here"></img>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div id="collapse1" class="panel-collapse collapse in">
-							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+						<div class="panel panel-default" id="catalogPanel">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" href="#collapse2">2: Maintain Catalog</a>
+								</h4>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse">
+								<div class="panel-body">
+									When performing a web search, the searching is done through the search engine’s
+									<br> catalog of content it has crawled through rather than the content at the source itself.
+									<br> This catalog, essentially a database, is the second component of a search engine.
+									<br> The contents of the web are constantly changing, so it’s crucial that search engines continually
+									<br> crawl through previously indexed pages as the catalog continually becomes outdated.
+									<div class="tech-animation">
+										<img src="img/database.jpg" alt="Database Image" style="max-height:300px;"></img>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="panel panel-default"  id="catalogPanel">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" href="#collapse2">2: Maintain Catalog</a>
-							</h4>
-						</div>
-						<div id="collapse2" class="panel-collapse collapse">
-							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-						</div>
-					</div>
-					<div class="panel panel-default" id="relevancePanel">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" href="#collapse3">3: Determine Quality/Relevance</a>
-							</h4>
-						</div>
-						<div id="collapse3" class="panel-collapse collapse">
-							<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-								aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+						<div class="panel panel-default" id="relevancePanel">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" href="#collapse3">3: Determine Quality/Relevance</a>
+								</h4>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse">
+								<div class="panel-body">
+
+
+
+									<div class="panel-group">
+										<div class="panel panel-default panel-inner" id="relevanceInnerPanel1">
+											<div class="panel-heading panel-heading-inner">
+												<h4 class="panel-title">
+													<a class="panel-heading" data-toggle="collapse" href="#collapseInner1">PageRank</a>
+												</h4>
+											</div>
+											<div id="collapseInner1" class="panel-collapse collapse in">
+												<div class="panel-body">
+													<div class="row">
+														<div class="col-7">
+															A core factor in the Google search engine is page relevancy, or ‘PageRank’, which is the number of links that point toward
+															it. Google determines a page’s importance/quality based on these ‘backlinks’, which can be thought of roughly
+															as a citation on some other website. A backlink from a page with high PageRank has a heavier weight to it
+															than a backlink from a page with low PageRank. Google, along with most other modern search engines, uses PageRank
+															to help determine the order in which to display search results. PageRank does not depend on search query,
+															or the page’s content apart from as far as the content creates or receives backlinks. This method is a cornerstone
+															of many modern search engines but is also subject to exploitation through ‘linkspam’, which means purchasing
+															a massive quantity of backlinks regardless of where they come from.
+														</div>
+														<div class="col-5">
+															<img src="img/page-rank.jpg" alt="PageRank Image" style="width: 100%"></img>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="panel panel-default panel-inner" id="relevanceInnerPanel2">
+											<div class="panel-heading panel-heading">
+												<h4 class="panel-title">
+													<a class="panel-heading" data-toggle="collapse" href="#collapseInner2">Personalization</a>
+												</h4>
+											</div>
+											<div id="collapseInner2" class="panel-collapse collapse">
+												<div class="panel-body">
+													<div class="row">
+														<div class="col-7">
+															Another factor that will affect your search results is the concept of personalization. In the early 2000’s Google introduced
+															this concept to its users with accounts, and subsequently expanded the program to include all users regardless
+															of whether they turned it on or were even signed in to a Google account. The idea is simple: maintain a cookie
+															in a user’s browser that collects data related to location, search history, web history, and social network
+															history. This information is then used as ‘context’ to return listings more related to the user’s history.
+															One problem with this is that it minimizes the user’s discovery of new information and opinions and contributes
+															toward the ‘echo chamber’ effect. This was taken a step further in 2009 when Google began to customize search
+															results based on a user’s ‘social circle’. The usefulness of this rests on the assumption that one’s associates
+															share common interests, and it has been criticized as exacerbating the previous problems mentioned regarding
+															personalization.
+														</div>
+														<div class="col-5">
+															<img src="img/personalization.jpg" alt="Personalization Image" style="max-width: 100%"></img>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="panel panel-default panel-inner" id="relevanceInnerPanel3">
+											<div class="panel-heading panel-heading">
+												<h4 class="panel-title">
+													<a class="panel-heading" data-toggle="collapse" href="#collapseInner3">Search Suggestions</a>
+												</h4>
+											</div>
+											<div id="collapseInner3" class="panel-collapse collapse">
+												<div class="panel-body">
+													<img src="img/searchSuggestions.png" alt="Search Suggestions Image" style="width: 100%"></img>
+													The last feature of Google search that we’ll examine is search suggestions. Introduced in 2008, this feature sought to save
+													time when performing searches by offering possible completions of partial search queries. The suggestions vary
+													based on how people actually search, including a heavier weight on your own searches, and take into account
+													location and language. An interesting result of this is that Google may be lobbied to remove suggestions that
+													are seen as distasteful or unfair for particular groups. Some may be easier to understand, such as the removal
+													of suggestions toward hateful speech (even if it’s commonly searched). Others are less easy to understand. In
+													2010, for example, Google was sued to remove the word “arnaque” (meaning scam) from the suggestions related
+													to a controversial French company. A similar legal case was taken up by a man to have the suggestion “rapist”
+													from appearing next to his name. Does this constitute censorship?
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-		</div>
-	</div>
+			</div>
+
 
 
 		</div>
